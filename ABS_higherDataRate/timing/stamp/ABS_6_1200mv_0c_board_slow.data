@@ -1,0 +1,514 @@
+/*
+ Copyright (C) 1991-2012 Altera Corporation
+ Your use of Altera Corporation's design tools, logic functions 
+ and other software and tools, and its AMPP partner logic 
+ functions, and any output files from any of the foregoing 
+ (including device programming or simulation files), and any 
+ associated documentation or information are expressly subject 
+ to the terms and conditions of the Altera Program License 
+ Subscription Agreement, Altera MegaCore Function License 
+ Agreement, or other applicable license agreement, including, 
+ without limitation, that your use is for the sole purpose of 
+ programming logic devices manufactured by Altera and sold by 
+ Altera or its authorized distributors.  Please refer to the 
+ applicable agreement for further details.
+*/
+MODELDATA
+/*MODELDATA HEADER*/
+/*
+ This file contains Slow Corner delays for the design using part EP4CE22F17C6
+ with speed grade 6, core voltage 1.2V, and temperature 0 Celsius
+
+*/
+DESIGN "ABS";
+TIMESCALE "1ns";
+
+
+
+
+
+TIMINGDATA
+
+ARCDATA
+pos_gSensorReset__clk_board__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.116");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.116");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_ABS_EN_GLOBAL__clockdivider:inst1|clockout__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("0.755");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("0.755");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_PWM_IN_L__clockdivider:inst1|clockout__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("6.489");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("6.489");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_PWM_IN_R__clockdivider:inst1|clockout__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("7.395");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("7.395");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_SENSE_HL__clockdivider:inst1|clockout__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("3.495");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("3.495");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_SENSE_HR__clockdivider:inst1|clockout__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("3.939");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("3.939");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_SENSE_VL__clockdivider:inst1|clockout__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("3.626");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("3.626");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_SENSE_VR__clockdivider:inst1|clockout__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("3.637");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("3.637");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_SDIO__gSensorReader:gSensorReader_instance|SCLKinternal__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.074");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.074");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_gSensorReset__gSensorReader:gSensorReader_instance|SCLKinternal__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-0.446");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-0.446");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_gSensorReset__clk_board__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("0.075");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("0.075");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_ABS_EN_GLOBAL__clockdivider:inst1|clockout__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("0.425");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("0.425");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_PWM_IN_L__clockdivider:inst1|clockout__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.165");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.165");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_PWM_IN_R__clockdivider:inst1|clockout__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.516");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.516");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_SENSE_HL__clockdivider:inst1|clockout__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.160");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.160");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_SENSE_HR__clockdivider:inst1|clockout__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.765");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.765");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_SENSE_VL__clockdivider:inst1|clockout__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.040");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.040");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_SENSE_VR__clockdivider:inst1|clockout__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.429");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.429");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_SDIO__gSensorReader:gSensorReader_instance|SCLKinternal__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-0.636");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-0.636");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_gSensorReset__gSensorReader:gSensorReader_instance|SCLKinternal__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("0.772");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("0.772");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clockdivider:inst1|clockout__DEBUG_CLOCK1M__delay:
+CELL_RISE( scalar ) {
+VALUES ("2.766");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("2.766");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clockdivider:inst1|clockout__DEBUG_CLOCK1M__delay:
+CELL_RISE( scalar ) {
+VALUES ("");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clockdivider:inst1|clockout__DEBUG_CLOCK100K__delay:
+CELL_RISE( scalar ) {
+VALUES ("5.028");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("5.028");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clockdivider:inst1|clockout__PWM_OUT_HL__delay:
+CELL_RISE( scalar ) {
+VALUES ("5.501");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("5.501");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clockdivider:inst1|clockout__PWM_OUT_HR__delay:
+CELL_RISE( scalar ) {
+VALUES ("6.258");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("6.258");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clockdivider:inst1|clockout__PWM_OUT_VL__delay:
+CELL_RISE( scalar ) {
+VALUES ("5.623");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("5.623");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clockdivider:inst1|clockout__PWM_OUT_VR__delay:
+CELL_RISE( scalar ) {
+VALUES ("6.620");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("6.620");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clockdivider:inst1|clockout__xAxis[0]__delay:
+CELL_RISE( scalar ) {
+VALUES ("7.476");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("7.476");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clockdivider:inst1|clockout__xAxis[1]__delay:
+CELL_RISE( scalar ) {
+VALUES ("6.255");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("6.255");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clockdivider:inst1|clockout__xAxis[2]__delay:
+CELL_RISE( scalar ) {
+VALUES ("7.342");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("7.342");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clockdivider:inst1|clockout__xAxis[3]__delay:
+CELL_RISE( scalar ) {
+VALUES ("5.570");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("5.570");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clockdivider:inst1|clockout__xAxis[4]__delay:
+CELL_RISE( scalar ) {
+VALUES ("5.968");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("5.968");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clockdivider:inst1|clockout__xAxis[5]__delay:
+CELL_RISE( scalar ) {
+VALUES ("7.046");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("7.046");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clockdivider:inst1|clockout__xAxis[6]__delay:
+CELL_RISE( scalar ) {
+VALUES ("6.528");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("6.528");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clockdivider:inst1|clockout__xAxis[7]__delay:
+CELL_RISE( scalar ) {
+VALUES ("6.232");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("6.232");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_dataToSerial:dataToSerial_instance|serialClk__TX__delay:
+CELL_RISE( scalar ) {
+VALUES ("7.588");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("7.588");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_gSensorReader:gSensorReader_instance|SCLKinternal__CS_N__delay:
+CELL_RISE( scalar ) {
+VALUES ("6.467");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("6.467");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_gSensorReader:gSensorReader_instance|SCLKinternal__SCLK__delay:
+CELL_RISE( scalar ) {
+VALUES ("7.084");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("7.084");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_gSensorReader:gSensorReader_instance|SCLKinternal__SCLK__delay:
+CELL_RISE( scalar ) {
+VALUES ("");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_gSensorReader:gSensorReader_instance|SCLKinternal__SDIO__delay:
+CELL_RISE( scalar ) {
+VALUES ("7.160");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("7.160");
+}
+
+ENDARCDATA
+
+ENDTIMINGDATA
+
+ENDMODELDATA

@@ -1,0 +1,127 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2012 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 16 16 504 208)
+	(text "absControlHR" (rect 5 0 82 14)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 176 25 188)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "CLK_IN" (rect 0 0 41 14)(font "Arial" (font_size 8)))
+		(text "CLK_IN" (rect 21 27 62 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "SENSE_IN_HR" (rect 0 0 80 14)(font "Arial" (font_size 8)))
+		(text "SENSE_IN_HR" (rect 21 43 101 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "LUT_IN_HR[15..0]" (rect 0 0 99 14)(font "Arial" (font_size 8)))
+		(text "LUT_IN_HR[15..0]" (rect 21 59 120 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64)(line_width 3))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "COMPARATOR_SELECT_PORT_IN_HR[1..0]" (rect 0 0 246 14)(font "Arial" (font_size 8)))
+		(text "COMPARATOR_SELECT_PORT_IN_HR[1..0]" (rect 21 75 267 89)(font "Arial" (font_size 8)))
+		(line (pt 0 80)(pt 16 80)(line_width 3))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "PWM_IN_RIGHT" (rect 0 0 88 14)(font "Arial" (font_size 8)))
+		(text "PWM_IN_RIGHT" (rect 21 91 109 105)(font "Arial" (font_size 8)))
+		(line (pt 0 96)(pt 16 96))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "ABS_EN_GLOBAL" (rect 0 0 106 14)(font "Arial" (font_size 8)))
+		(text "ABS_EN_GLOBAL" (rect 21 107 127 121)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 16 112))
+	)
+	(port
+		(pt 488 32)
+		(output)
+		(text "PWM_OUT_HR" (rect 0 0 83 14)(font "Arial" (font_size 8)))
+		(text "PWM_OUT_HR" (rect 384 27 467 41)(font "Arial" (font_size 8)))
+		(line (pt 488 32)(pt 472 32))
+	)
+	(port
+		(pt 488 48)
+		(output)
+		(text "HIGH_LOW_MUX_OUT_HR[15..0]" (rect 0 0 187 14)(font "Arial" (font_size 8)))
+		(text "HIGH_LOW_MUX_OUT_HR[15..0]" (rect 280 43 467 57)(font "Arial" (font_size 8)))
+		(line (pt 488 48)(pt 472 48)(line_width 3))
+	)
+	(port
+		(pt 488 64)
+		(output)
+		(text "OVERFLOW_LOW_OUT_HR" (rect 0 0 160 14)(font "Arial" (font_size 8)))
+		(text "OVERFLOW_LOW_OUT_HR" (rect 307 59 467 73)(font "Arial" (font_size 8)))
+		(line (pt 488 64)(pt 472 64))
+	)
+	(port
+		(pt 488 80)
+		(output)
+		(text "OVERFLOW_HIGH_OUT_HR" (rect 0 0 160 14)(font "Arial" (font_size 8)))
+		(text "OVERFLOW_HIGH_OUT_HR" (rect 307 75 467 89)(font "Arial" (font_size 8)))
+		(line (pt 488 80)(pt 472 80))
+	)
+	(port
+		(pt 488 96)
+		(output)
+		(text "ABS_ENABLE_OUT_HR" (rect 0 0 135 14)(font "Arial" (font_size 8)))
+		(text "ABS_ENABLE_OUT_HR" (rect 332 91 467 105)(font "Arial" (font_size 8)))
+		(line (pt 488 96)(pt 472 96))
+	)
+	(port
+		(pt 488 112)
+		(output)
+		(text "BLOCK_DETECT_OUT_HR" (rect 0 0 148 14)(font "Arial" (font_size 8)))
+		(text "BLOCK_DETECT_OUT_HR" (rect 319 107 467 121)(font "Arial" (font_size 8)))
+		(line (pt 488 112)(pt 472 112))
+	)
+	(port
+		(pt 488 128)
+		(output)
+		(text "OUT_LOW_HR[15..0]" (rect 0 0 119 14)(font "Arial" (font_size 8)))
+		(text "OUT_LOW_HR[15..0]" (rect 348 123 467 137)(font "Arial" (font_size 8)))
+		(line (pt 488 128)(pt 472 128)(line_width 3))
+	)
+	(port
+		(pt 488 144)
+		(output)
+		(text "OUT_HIGH_HR[15..0]" (rect 0 0 119 14)(font "Arial" (font_size 8)))
+		(text "OUT_HIGH_HR[15..0]" (rect 348 139 467 153)(font "Arial" (font_size 8)))
+		(line (pt 488 144)(pt 472 144)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 472 176))
+	)
+)

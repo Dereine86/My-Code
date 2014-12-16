@@ -1,0 +1,22 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity dutycyclenormalization is
+  port (
+    inport: in std_logic_vector(15 downto 0);
+    outport : out std_logic_vector(15 downto 0);
+	 clk, selectportin : in std_logic;
+	 selectportout : out std_logic
+  );
+end dutycyclenormalization;
+
+architecture dutycyclenormalizationbehavior of dutycyclenormalization is
+  begin
+  process (clk)
+  if (rising_edge(clk)) then
+  outport <= inport0 when selectportin = '0' else
+             inport1 when selectportin = '1';
+  selectportout <= selectportin;	 
+end dutycyclenormalizationbehavior;
+

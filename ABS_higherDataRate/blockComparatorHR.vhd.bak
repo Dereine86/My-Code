@@ -1,0 +1,98 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+use ieee.std_logic_arith.all; -- For the conversion to std_logic_vector from integer.
+use ieee.std_logic_unsigned.all; -- For the conversion from std_logic_vector to integer
+
+use ieee.fixed_float_types.all; -- ieee_proposed for VHDL-93 version
+use ieee.fixed_pkg.all; -- ieee_proposed for compatibility version
+
+entity blockComparatorhr is
+  port(
+    clk : in std_logic;	 
+	 oneorzero : in std_logic;
+	 selectportin : in std_logic_vector(1 downto 0);
+	 blockDetect : out std_logic;
+	 inlive : in std_logic_vector (15 downto 0);	 
+	 inlut : in std_logic_vector (15 downto 0)
+	 );
+end blockComparatorhr;
+
+architecture blockComparatorhrbehavior of blockComparatorhr is
+  --signal edgeCounter : natural := 0;
+  signal oneorzero_syn : std_logic;
+  signal oneorzero_last : std_logic;
+  signal oneorzero_rising : std_logic; 
+  signal edgeCounter : std_logic_vector (2 downto 0);
+  signal blockOccured : boolean := false;
+  signal inlutintern : std_logic_vector (15 downto 0);
+  signal inlutinternhigh : std_logic_vector (31 downto 0);
+  signal inlutinternlow : std_logic_vector (31 downto 0);
+  -- Insert duty factors here.
+  signal dutyFactorHigh : sfixed(15 downto -2) := "000000000000000011"; -- equals 0.75 which should be 0.75
+  signal dutyFactorLow : sfixed(15 downto -1)  := "00000000000000011"; -- equals 1.5 which should be 1.499
+begin
+  process (clk)
+  constant maxEdges : natural := 4;
+  begin
+     if (clk'event and clk = '1') then
+	   if (selectportin = "10") then
+		  inlutintern <= inlut;
+		end if;
+		if (oneorzero = '1') then
+	     if (inlive > inlutinternhigh) then
+		    blockOccured <= true;
+		    blockDetect <= '1';
+		  elsif (edgeCounter = 4 and blockOccured = true) then
+		  --elsif (blockOccured = true) then
+   	    if (inlive < inlutinternhigh) then
+            blockOccured <= false;
+		      blockDetect <= '0';
+		    end if;
+		  end if;
+		elsif (oneorzero = '0') then
+	     if (inlive > inlutinternlow) then
+		    blockOccured <= true;
+		    blockDetect <= '1';
+		  elsif (edgeCounter = 4 and blockOccured = true) then
+		  --elsif (blockOccured = true) then
+   	    if (inlive < inlutinternlow) then
+            blockOccured <= false;
+		      blockDetect <= '0';
+		    end if;
+		  end if;		  
+		end if;
+	 end if;
+  end process;
+  
+  process (clk)
+  --constant maxEdges : natural := 4;
+  begin
+    if (rising_edge(clk)) then
+	   oneorzero_syn <= oneorzero;
+      oneorzero_last <= oneorzero_syn;
+	   oneorzero_rising <= oneorzero_syn and not oneorzero_last;
+      if (oneorzero_rising = '1') then
+        if (blockOccured = true) then
+	       if (edgeCounter = 4) then
+		      edgeCounter <= (others => '0');
+          else
+		      edgeCounter <= edgeCounter + 1;
+		    end if;
+	     elsif (blockOccured = false) then
+	    --edgeCounter <= 0;
+		    edgeCounter <= (others => '0');
+	    end if;
+	  end if;
+	  end if;
+  end process;
+  
+  process (inlutintern)
+    begin
+      inlutinternhigh <= CONV_STD_LOGIC_VECTOR(to_integer(CONV_INTEGER(inlutintern) * dutyFactorHigh), 32);
+      inlutinternlow <= CONV_STD_LOGIC_VECTOR(to_integer(CONV_INTEGER(inlutintern) * dutyFactorLow), 32);
+   end process;
+  
+end blockComparatorhrbehavior;
+
+

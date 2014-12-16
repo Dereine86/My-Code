@@ -1,0 +1,1075 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Johannes\Documents\Uni\Bachelorarbeit\FPGA-Projektordner\ABS\simulation\modelsim
+Eabscontrolhl
+Z1 w1376830973
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\Johannes\Documents\Uni\Bachelorarbeit\FPGA-Projektordner\ABS\simulation\modelsim
+Z5 8C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/absControlHL.vhd
+Z6 FC:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/absControlHL.vhd
+l0
+L24
+V6SELD9P0jg^_jod]f<B=K3
+Z7 OV;C;10.1b;51
+31
+Z8 !s108 1377627219.334000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/absControlHL.vhd|
+Z10 !s107 C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/absControlHL.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 LS_L8]GFZTnkD[E0nW>M>3
+!i10b 1
+Abdf_type
+R2
+R3
+DEx4 work 12 abscontrolhl 0 22 6SELD9P0jg^_jod]f<B=K3
+l108
+L44
+VOhKOULFOod>8PCoS=2YER2
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 :D:OBeVb4;XzF?`X;P6DI3
+!i10b 1
+Eabscontrolhr
+Z13 w1376825554
+R2
+R3
+R4
+Z14 8C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/absControlHR.vhd
+Z15 FC:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/absControlHR.vhd
+l0
+L24
+VB]DE:8=e3gzelSYjDYRHR0
+R7
+31
+Z16 !s108 1377627218.946000
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/absControlHR.vhd|
+Z18 !s107 C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/absControlHR.vhd|
+R11
+R12
+!s100 a9zIM7[S42Q1`=Ea3_mFg0
+!i10b 1
+Abdf_type
+R2
+R3
+DEx4 work 12 abscontrolhr 0 22 B]DE:8=e3gzelSYjDYRHR0
+l108
+L44
+VbghaBcb:9YWBDWTXjl<Xo0
+R7
+31
+R16
+R17
+R18
+R11
+R12
+!s100 fh>9NMPdVSD_;:hJ^6g920
+!i10b 1
+Eabscontrolvl
+Z19 w1376825624
+R2
+R3
+R4
+Z20 8C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/absControlVL.vhd
+Z21 FC:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/absControlVL.vhd
+l0
+L24
+V`h210N]K<gUPbYP;gVh2N3
+R7
+31
+Z22 !s108 1377627218.513000
+Z23 !s90 -reportprogress|300|-93|-work|work|C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/absControlVL.vhd|
+Z24 !s107 C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/absControlVL.vhd|
+R11
+R12
+!s100 j6hE4m_[nV>MAE4SAe=`?0
+!i10b 1
+Abdf_type
+R2
+R3
+DEx4 work 12 abscontrolvl 0 22 `h210N]K<gUPbYP;gVh2N3
+l108
+L44
+V9a6f<lLkcBn:ViAFJAbBK0
+R7
+31
+R22
+R23
+R24
+R11
+R12
+!s100 QeXi2Iz>Jz7TSW:WM:i0U2
+!i10b 1
+Eabscontrolvr
+Z25 w1376825573
+R2
+R3
+R4
+Z26 8C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/absControlVR.vhd
+Z27 FC:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/absControlVR.vhd
+l0
+L24
+VT<jPg2=?LM7O?[0N7lcUz3
+R7
+31
+Z28 !s108 1377627218.012000
+Z29 !s90 -reportprogress|300|-93|-work|work|C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/absControlVR.vhd|
+Z30 !s107 C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/absControlVR.vhd|
+R11
+R12
+!s100 [?2Deb`SzzWc8Gkim_O=K0
+!i10b 1
+Abdf_type
+R2
+R3
+DEx4 work 12 abscontrolvr 0 22 T<jPg2=?LM7O?[0N7lcUz3
+l108
+L44
+VBJ6f>f^X3c:MAR=oOK`5`3
+R7
+31
+R28
+R29
+R30
+R11
+R12
+!s100 A50Tm99@NChfm1aD2D?:41
+!i10b 1
+Eabsmain
+Z31 w1376823213
+R2
+R3
+R4
+Z32 8C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/absMain.vhd
+Z33 FC:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/absMain.vhd
+l0
+L24
+Vd;lHnB];DNjRZ<[QhkD_d1
+R7
+31
+Z34 !s108 1377627219.672000
+Z35 !s90 -reportprogress|300|-93|-work|work|C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/absMain.vhd|
+Z36 !s107 C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/absMain.vhd|
+R11
+R12
+!s100 5?dSSATWU228n1F8MV_6P1
+!i10b 1
+Abdf_type
+R2
+R3
+DEx4 work 7 absmain 0 22 d;lHnB];DNjRZ<[QhkD_d1
+l180
+L50
+VCKP<CODR`55lDMoj6H26H3
+R7
+31
+R34
+R35
+R36
+R11
+R12
+!s100 :6D_[ZEH0MX_h=F;_C5933
+!i10b 1
+Eabsmain_vhd_tst
+Z37 w1376831731
+R2
+R3
+R4
+Z38 8C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/simulation/modelsim/absMain.vht
+Z39 FC:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/simulation/modelsim/absMain.vht
+l0
+L30
+V?bFmN7L_@46cUXZ4V<Da<2
+!s100 mchf9jS1VT0c2Je961_VX3
+R7
+31
+!i10b 1
+Z40 !s108 1377627232.160000
+Z41 !s90 -reportprogress|300|-93|-work|work|C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/simulation/modelsim/absMain.vht|
+Z42 !s107 C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/simulation/modelsim/absMain.vht|
+R11
+R12
+Aabsmain_arch
+R2
+R3
+DEx4 work 15 absmain_vhd_tst 0 22 ?bFmN7L_@46cUXZ4V<Da<2
+l79
+L32
+VmFX=QIbPMTj^QO<AAF4O=1
+!s100 BA9_MH_Re^E:6l`WQY3[F0
+R7
+31
+!i10b 1
+R40
+R41
+R42
+R11
+R12
+Eblockcomparatorhl
+Z43 w1377627077
+Z44 DPx4 ieee 17 fixed_generic_pkg 0 22 dnEG0BMWbGEXn@TT=Wh_c2
+Z45 DPx4 ieee 9 fixed_pkg 0 22 _YS>daVNM>A@gMgm;Gg7k3
+Z46 DPx4 ieee 17 fixed_float_types 0 22 =0;62o;ECZzWjJIh=Ib]f2
+Z47 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z48 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z49 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+R2
+R3
+R4
+Z50 8C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/blockComparatorHL.vhd
+Z51 FC:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/blockComparatorHL.vhd
+l0
+L16
+VCVfQlI@eH<ceCD]hb^>TI0
+R7
+31
+Z52 !s108 1377627228.484000
+Z53 !s90 -reportprogress|300|-93|-work|work|C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/blockComparatorHL.vhd|
+Z54 !s107 C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/blockComparatorHL.vhd|
+R11
+R12
+!s100 Ng23G^o3WILY_1mCRcYoJ2
+!i10b 1
+Ablockcomparatorhlbehavior
+R44
+R45
+R46
+R47
+R48
+R49
+R2
+R3
+DEx4 work 17 blockcomparatorhl 0 22 CVfQlI@eH<ceCD]hb^>TI0
+l39
+L27
+V;j;R7h2;4>P]Lb5PoAGFZ2
+R7
+31
+R52
+R53
+R54
+R11
+R12
+!s100 1eT0F<j5>9h[OX`Zee0L?1
+!i10b 1
+Eblockcomparatorhr
+Z55 w1376856161
+R44
+R45
+R46
+R47
+R48
+R49
+R2
+R3
+R4
+Z56 8C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/blockComparatorHR.vhd
+Z57 FC:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/blockComparatorHR.vhd
+l0
+L16
+V8PnB:BjW5]PGP5akki4jG0
+R7
+31
+Z58 !s108 1377627227.818000
+Z59 !s90 -reportprogress|300|-93|-work|work|C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/blockComparatorHR.vhd|
+Z60 !s107 C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/blockComparatorHR.vhd|
+R11
+R12
+!s100 U^Hz^zGF]XCOCcH06J85B2
+!i10b 1
+Ablockcomparatorhrbehavior
+R44
+R45
+R46
+R47
+R48
+R49
+R2
+R3
+DEx4 work 17 blockcomparatorhr 0 22 8PnB:BjW5]PGP5akki4jG0
+l38
+L27
+V]zbPBWYmiA?6R_>j^X7R30
+R7
+31
+R58
+R59
+R60
+R11
+R12
+!s100 kHSRWS4]b8HT]`Qm@=`jj2
+!i10b 1
+Eblockcomparatorvl
+Z61 w1376856297
+R44
+R45
+R46
+R47
+R48
+R49
+R2
+R3
+R4
+Z62 8C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/blockComparatorVL.vhd
+Z63 FC:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/blockComparatorVL.vhd
+l0
+L16
+VcPTZAkz5oLoKQR:F3R=[m1
+R7
+31
+Z64 !s108 1377627227.145000
+Z65 !s90 -reportprogress|300|-93|-work|work|C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/blockComparatorVL.vhd|
+Z66 !s107 C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/blockComparatorVL.vhd|
+R11
+R12
+!s100 Yl_C3d>V]kUWH=We@nLeo3
+!i10b 1
+Ablockcomparatorvlbehavior
+R44
+R45
+R46
+R47
+R48
+R49
+R2
+R3
+DEx4 work 17 blockcomparatorvl 0 22 cPTZAkz5oLoKQR:F3R=[m1
+l39
+L27
+V5A>zn=JDJFAXEFf?mzPLY1
+R7
+31
+R64
+R65
+R66
+R11
+R12
+!s100 kMAoT>o_j[Z>I]mZH@?^60
+!i10b 1
+Eblockcomparatorvr
+Z67 w1376855960
+R44
+R45
+R46
+R47
+R48
+R49
+R2
+R3
+R4
+Z68 8C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/blockComparatorVR.vhd
+Z69 FC:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/blockComparatorVR.vhd
+l0
+L16
+VnY?:44_mHAj2nU8=B79h<1
+R7
+31
+Z70 !s108 1377627226.274000
+Z71 !s90 -reportprogress|300|-93|-work|work|C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/blockComparatorVR.vhd|
+Z72 !s107 C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/blockComparatorVR.vhd|
+R11
+R12
+!s100 lhh8KSWIDRWDM3LB`L^n93
+!i10b 1
+Ablockcomparatorvrbehavior
+R44
+R45
+R46
+R47
+R48
+R49
+R2
+R3
+DEx4 work 17 blockcomparatorvr 0 22 nY?:44_mHAj2nU8=B79h<1
+l38
+L27
+VmZmH7zBUG94SGYnVK@j?h1
+R7
+31
+R70
+R71
+R72
+R11
+R12
+!s100 GXVT`2LC:j>3?UcH_<U>`3
+!i10b 1
+Ebreakcontrolleft
+Z73 w1375700502
+R48
+R47
+R2
+R3
+R4
+Z74 8C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/breakControlLeft.vhd
+Z75 FC:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/breakControlLeft.vhd
+l0
+L4
+VHjPHbWOe;oiFKFXd`Xz>Z2
+R7
+31
+Z76 !s108 1377627223.706000
+Z77 !s90 -reportprogress|300|-93|-work|work|C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/breakControlLeft.vhd|
+Z78 !s107 C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/breakControlLeft.vhd|
+R11
+R12
+!s100 9@8]nJ:Ka8YM>[;?6??bJ0
+!i10b 1
+Abreakcontrolleftbehavior
+R48
+R47
+R2
+R3
+DEx4 work 16 breakcontrolleft 0 22 HjPHbWOe;oiFKFXd`Xz>Z2
+l12
+L11
+Vc7oN9XRjfZg]Q@b9]B<`<1
+R7
+31
+R76
+R77
+R78
+R11
+R12
+!s100 7kY>LZ7fMCKWGn5RPb49L2
+!i10b 1
+Ebreakcontrolright
+Z79 w1375437686
+R48
+R47
+R2
+R3
+R4
+Z80 8C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/breakControlRight.vhd
+Z81 FC:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/breakControlRight.vhd
+l0
+L4
+VeOcgjL^C9AGD>P>dFX1m51
+R7
+31
+Z82 !s108 1377627223.248000
+Z83 !s90 -reportprogress|300|-93|-work|work|C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/breakControlRight.vhd|
+Z84 !s107 C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/breakControlRight.vhd|
+R11
+R12
+!s100 :IRHb^9FF1l?nK92YBNM^2
+!i10b 1
+Abreakcontrolrightbehavior
+R48
+R47
+R2
+R3
+DEx4 work 17 breakcontrolright 0 22 eOcgjL^C9AGD>P>dFX1m51
+l12
+L11
+V93KaXFFkDQQIHfcZF]3lB1
+R7
+31
+R82
+R83
+R84
+R11
+R12
+!s100 UG`1R8[FfY<oL9T1aVG`;3
+!i10b 1
+Ebusmultiplexer
+Z85 w1375436914
+R49
+R2
+R3
+R4
+Z86 8C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/busmultiplexer.vhd
+Z87 FC:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/busmultiplexer.vhd
+l0
+L5
+VS]01:M9SVX2:1lG:dR=R=0
+R7
+31
+Z88 !s108 1377627224.557000
+Z89 !s90 -reportprogress|300|-93|-work|work|C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/busmultiplexer.vhd|
+Z90 !s107 C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/busmultiplexer.vhd|
+R11
+R12
+!s100 M29GVPT;P_bDIl=iYG^eo1
+!i10b 1
+Abusmultiplexerbehavior
+R49
+R2
+R3
+DEx4 work 14 busmultiplexer 0 22 S]01:M9SVX2:1lG:dR=R=0
+l15
+L14
+Va5kXlV=`@nO`_J<fhJ7n[0
+R7
+31
+R88
+R89
+R90
+R11
+R12
+!s100 DOcHnVz[NFdQaD5V5eKNA3
+!i10b 1
+Eclockdivider
+Z91 w1374070963
+R48
+R47
+R2
+R3
+R4
+Z92 8C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/clockdivider.vhd
+Z93 FC:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/clockdivider.vhd
+l0
+L5
+VEJa`@ADo_BdVW6cCk@>iM2
+R7
+31
+Z94 !s108 1377627222.892000
+Z95 !s90 -reportprogress|300|-93|-work|work|C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/clockdivider.vhd|
+Z96 !s107 C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/clockdivider.vhd|
+R11
+R12
+!s100 Go]7zkZYjgK0ERccV7``11
+!i10b 1
+Aclockdividerbehaviour
+R48
+R47
+R2
+R3
+DEx4 work 12 clockdivider 0 22 EJa`@ADo_BdVW6cCk@>iM2
+l15
+L12
+VzJmY12[ljzQU:H4hW0:bz3
+R7
+31
+R94
+R95
+R96
+R11
+R12
+!s100 6I3@DJMK4E32cdMDO;RG^0
+!i10b 1
+Eclockdividerdebug
+Z97 w1374071025
+R48
+R47
+R2
+R3
+R4
+Z98 8C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/clockdivider100k.vhd
+Z99 FC:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/clockdivider100k.vhd
+l0
+L5
+VCMhEImHjWB2e<@?d6zCaX3
+R7
+31
+Z100 !s108 1377627222.411000
+Z101 !s90 -reportprogress|300|-93|-work|work|C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/clockdivider100k.vhd|
+Z102 !s107 C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/clockdivider100k.vhd|
+R11
+R12
+!s100 ]K17HZfeIYA:=DR;I2fAi3
+!i10b 1
+Aclockdividerdebugbehaviour
+R48
+R47
+R2
+R3
+DEx4 work 17 clockdividerdebug 0 22 CMhEImHjWB2e<@?d6zCaX3
+l15
+L12
+V>^_7oDEKeJE3H;;ge8cW63
+R7
+31
+R100
+R101
+R102
+R11
+R12
+!s100 9J]b]D?NE5VjH?jD25;=`3
+!i10b 1
+Econtrolblock
+Z103 w1376823126
+R2
+R3
+R4
+Z104 8C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/controlBlock.vhd
+Z105 FC:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/controlBlock.vhd
+l0
+L24
+Vz8=mgFh5mh?Z;LHSE]f^F2
+R7
+31
+Z106 !s108 1377627217.311000
+Z107 !s90 -reportprogress|300|-93|-work|work|C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/controlBlock.vhd|
+Z108 !s107 C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/controlBlock.vhd|
+R11
+R12
+!s100 XTQFMc;QGW@f9AC_@7YRe0
+!i10b 1
+Abdf_type
+R2
+R3
+DEx4 work 12 controlblock 0 22 z8=mgFh5mh?Z;LHSE]f^F2
+l175
+L68
+V28flAWKhYY>ODa@K0O6`O3
+R7
+31
+R106
+R107
+R108
+R11
+R12
+!s100 Cb<>53_CbL5=kT?gOJ6d@3
+!i10b 1
+Edatatoserial
+Z109 w1375280551
+R48
+R47
+R2
+R3
+R4
+Z110 8C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/dataToSerial.vhd
+Z111 FC:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/dataToSerial.vhd
+l0
+L13
+V]QaE7[j9Wfj]JjdLI4Kh;1
+R7
+31
+Z112 !s108 1377627221.916000
+Z113 !s90 -reportprogress|300|-93|-work|work|C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/dataToSerial.vhd|
+Z114 !s107 C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/dataToSerial.vhd|
+R11
+R12
+!s100 `Wf;2mlkOUHmD`I?nO10S0
+!i10b 1
+Abehavior
+R48
+R47
+R2
+R3
+DEx4 work 12 datatoserial 0 22 ]QaE7[j9Wfj]JjdLI4Kh;1
+l103
+L46
+VegfP8Z2a;7NHN<JIj6S<62
+R7
+31
+R112
+R113
+R114
+R11
+R12
+!s100 K>lzcKZlPPn^giG3S8Dze3
+!i10b 1
+Edutycyclenormalizationhl
+Z115 w1377627092
+R44
+R45
+R46
+R47
+R48
+R49
+R2
+R3
+R4
+Z116 8C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/dutycyclenormalizationHL.vhd
+Z117 FC:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/dutycyclenormalizationHL.vhd
+l0
+L10
+V0J9Pl3Nj4<ZXzAXnANaSB1
+R7
+31
+Z118 !s108 1377627229.908000
+Z119 !s90 -reportprogress|300|-93|-work|work|C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/dutycyclenormalizationHL.vhd|
+Z120 !s107 C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/dutycyclenormalizationHL.vhd|
+R11
+R12
+!s100 XUIgM@`XeU7H[`8>5P7FS2
+!i10b 1
+Adutycyclenormalizationhlbehavior
+R44
+R45
+R46
+R47
+R48
+R49
+R2
+R3
+DEx4 work 24 dutycyclenormalizationhl 0 22 0J9Pl3Nj4<ZXzAXnANaSB1
+l24
+L19
+VbRmHz5`fS<GcD6W4RTUTg1
+R7
+31
+R118
+R119
+R120
+R11
+R12
+!s100 Qi_OIVHeSW7_f[]C8`Yj[0
+!i10b 1
+Edutycyclenormalizationhr
+Z121 w1376563158
+R44
+R45
+R46
+R47
+R48
+R49
+R2
+R3
+R4
+Z122 8C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/dutycyclenormalizationHR.vhd
+Z123 FC:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/dutycyclenormalizationHR.vhd
+l0
+L10
+V;5aGNATBmM3`k1TReEYBf3
+R7
+31
+Z124 !s108 1377627229.160000
+Z125 !s90 -reportprogress|300|-93|-work|work|C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/dutycyclenormalizationHR.vhd|
+Z126 !s107 C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/dutycyclenormalizationHR.vhd|
+R11
+R12
+!s100 =@:>cOT]ljRV2cckS7Mf80
+!i10b 1
+Adutycyclenormalizationhrbehavior
+R44
+R45
+R46
+R47
+R48
+R49
+R2
+R3
+DEx4 work 24 dutycyclenormalizationhr 0 22 ;5aGNATBmM3`k1TReEYBf3
+l23
+L19
+VRDF=ea`L`JLQFzF`NL_1;2
+R7
+31
+R124
+R125
+R126
+R11
+R12
+!s100 QgNm_;`Cf_TU<YKY@7fb90
+!i10b 1
+Edutycyclenormalizationvl
+Z127 w1376562603
+R44
+R45
+R46
+R47
+R48
+R49
+R2
+R3
+R4
+Z128 8C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/dutycyclenormalizationVL.vhd
+Z129 FC:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/dutycyclenormalizationVL.vhd
+l0
+L10
+VWVRF9m:Ab4@?k`LLG356Z0
+R7
+31
+Z130 !s108 1377627230.574000
+Z131 !s90 -reportprogress|300|-93|-work|work|C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/dutycyclenormalizationVL.vhd|
+Z132 !s107 C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/dutycyclenormalizationVL.vhd|
+R11
+R12
+!s100 D2llXaZ8XEOQdDLWhh3A@0
+!i10b 1
+Adutycyclenormalizationvlbehavior
+R44
+R45
+R46
+R47
+R48
+R49
+R2
+R3
+DEx4 work 24 dutycyclenormalizationvl 0 22 WVRF9m:Ab4@?k`LLG356Z0
+l23
+L19
+VUa=B]EPVK=Fz9=ZOEJ]O<1
+R7
+31
+R130
+R131
+R132
+R11
+R12
+!s100 MfILOfHLCASHecCP??HCW1
+!i10b 1
+Edutycyclenormalizationvr
+Z133 w1376562409
+R44
+R45
+R46
+R47
+R48
+R49
+R2
+R3
+R4
+Z134 8C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/dutyCycleNormalizationVR.vhd
+Z135 FC:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/dutyCycleNormalizationVR.vhd
+l0
+L10
+V`8dmHjKXSzmF3nb;d7UbS2
+R7
+31
+Z136 !s108 1377627231.429000
+Z137 !s90 -reportprogress|300|-93|-work|work|C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/dutyCycleNormalizationVR.vhd|
+Z138 !s107 C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/dutyCycleNormalizationVR.vhd|
+R11
+R12
+!s100 OYF75G<VY;n@3XS@=Z9n71
+!i10b 1
+Adutycyclenormalizationvrbehavior
+R44
+R45
+R46
+R47
+R48
+R49
+R2
+R3
+DEx4 work 24 dutycyclenormalizationvr 0 22 `8dmHjKXSzmF3nb;d7UbS2
+l23
+L19
+V1a0Kl2YPNSQlGS`Aj9NIZ3
+R7
+31
+R136
+R137
+R138
+R11
+R12
+!s100 :004nh2>_gGQ5;m[TNTX_1
+!i10b 1
+Pfixed_float_types
+w1251363204
+R4
+8C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/fixed_point_lib/fixed_float_types_c.vhdl
+FC:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/fixed_point_lib/fixed_float_types_c.vhdl
+l0
+L16
+V`NoK3IWfknBIV76?of2T[3
+R7
+31
+R11
+R12
+!s100 K7S6f`lOn:f8[LPBGH_0k0
+!s107 C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/fixed_point_lib/fixed_float_types_c.vhdl|
+!i10b 1
+!s108 1377627220.888000
+!s90 -reportprogress|300|-93|-work|work|C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/fixed_point_lib/fixed_float_types_c.vhdl|
+Pfixed_pkg
+Z139 DPx13 ieee_proposed 17 fixed_float_types 0 22 EZ]fncf`d=LmXZLIVMMmV3
+R49
+R3
+R2
+Z140 w1373735233
+R4
+Z141 8C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/fixed_point_lib/fixed_pkg_c.vhdl
+Z142 FC:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/fixed_point_lib/fixed_pkg_c.vhdl
+l0
+L26
+VEQDmMKG?7Wj^_iD6]APi70
+R7
+31
+b1
+Z143 !s108 1377627225.058000
+Z144 !s90 -reportprogress|300|-93|-work|work|C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/fixed_point_lib/fixed_pkg_c.vhdl|
+Z145 !s107 C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/fixed_point_lib/fixed_pkg_c.vhdl|
+R11
+R12
+!s100 OD65KW:5Xkn^;IQ8b`i6<3
+!i10b 1
+Bbody
+DPx4 work 9 fixed_pkg 0 22 EQDmMKG?7Wj^_iD6]APi70
+Z146 DPx4 ieee 9 math_real 0 22 :iME`dTX54_U49lJNF5JI3
+R139
+R49
+R3
+R2
+l0
+L1467
+VmU40T1n_MLZm:HjIBBNR;3
+R7
+31
+R143
+R144
+R145
+R11
+R12
+nbody
+!s100 SjjmD93OV>>go_:CjFCU;0
+!i10b 1
+Egsensorreader
+Z147 w1370869643
+R48
+R2
+R3
+R47
+R4
+Z148 8C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/gSensorReader.vhd
+Z149 FC:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/gSensorReader.vhd
+l0
+L20
+V71DH;E4]MBb[Lc52f`A4?3
+R7
+31
+Z150 !s108 1377627221.450000
+Z151 !s90 -reportprogress|300|-93|-work|work|C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/gSensorReader.vhd|
+Z152 !s107 C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/gSensorReader.vhd|
+R11
+R12
+!s100 iRW?o<b_;o:M4b_0`c=[M1
+!i10b 1
+Abehavior
+R48
+R2
+R3
+R47
+DEx4 work 13 gsensorreader 0 22 71DH;E4]MBb[Lc52f`A4?3
+l77
+L38
+VHYlImS;@eAQi3X`Kh2U5n1
+R7
+31
+R150
+R151
+R152
+R11
+R12
+!s100 Z`[;:330oCnDV=<g>=_kY0
+!i10b 1
+Elut
+Z153 w1376741749
+R146
+R49
+R2
+R3
+R4
+Z154 8C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/LUT.vhd
+Z155 FC:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/LUT.vhd
+l0
+L9
+V09P`5NV3DJ86]7dzCKTVI0
+R7
+31
+Z156 !s108 1377627220.361000
+Z157 !s90 -reportprogress|300|-93|-work|work|C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/LUT.vhd|
+Z158 !s107 C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/LUT.vhd|
+R11
+R12
+!s100 ^SkCcN5O;Q3eW17FFSEK32
+!i10b 1
+Alutbehavior
+R146
+R49
+R2
+R3
+DEx4 work 3 lut 0 22 09P`5NV3DJ86]7dzCKTVI0
+l64
+L28
+VBSkQ7hZL2>EN4mo_[I:j:1
+R7
+31
+R156
+R157
+R158
+R11
+R12
+!s100 1f<MTWcefd]<eR2H^ER8Z3
+!i10b 1
+Elutmultiplexer
+Z159 w1374077665
+R49
+R48
+Z160 DPx4 ieee 16 std_logic_signed 0 22 E>OLoMaBGQ?hbGgOoNXM^1
+R2
+R3
+R4
+Z161 8C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/lutmultiplexer.vhd
+Z162 FC:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/lutmultiplexer.vhd
+l0
+L6
+VVa5@?WS9;IzeShVZ][04k3
+R7
+31
+Z163 !s108 1377627221.088000
+Z164 !s90 -reportprogress|300|-93|-work|work|C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/lutmultiplexer.vhd|
+Z165 !s107 C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/lutmultiplexer.vhd|
+R11
+R12
+!s100 eMb00QQZJJ3G5N=zn5E6i1
+!i10b 1
+Alutmultiplexerbehavior
+R49
+R48
+R160
+R2
+R3
+DEx4 work 14 lutmultiplexer 0 22 Va5@?WS9;IzeShVZ][04k3
+l17
+L15
+V18>haUK5AaSco9lLgb?`d2
+R7
+31
+R163
+R164
+R165
+R11
+R12
+!s100 5FLE]1hNG5E1`QgcD;dJ41
+!i10b 1
+Erpmmeasure
+Z166 w1376328479
+R48
+R47
+R2
+R3
+R4
+Z167 8C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/rpmMeasure.vhd
+Z168 FC:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/rpmMeasure.vhd
+l0
+L9
+VIk6Oj0llJDce[F?z@Z9<Z3
+R7
+31
+Z169 !s108 1377627224.101000
+Z170 !s90 -reportprogress|300|-93|-work|work|C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/rpmMeasure.vhd|
+Z171 !s107 C:/Users/Johannes/Documents/Uni/Bachelorarbeit/FPGA-Projektordner/ABS/rpmMeasure.vhd|
+R11
+R12
+!s100 0?ZRN<I9`m=8YKJSnz@bC2
+!i10b 1
+Arpmmeasurebehavior
+R48
+R47
+R2
+R3
+DEx4 work 10 rpmmeasure 0 22 Ik6Oj0llJDce[F?z@Z9<Z3
+l24
+L21
+V>U[XX]=O[UoK_eOT0]_>T1
+R7
+31
+R169
+R170
+R171
+R11
+R12
+!s100 Tf^J>3niXOK2<BhHRd>mV3
+!i10b 1

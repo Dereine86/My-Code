@@ -1,0 +1,24 @@
+
+State Machine - |absMain|gSensorReader:gSensorReader_instance|nextState
+Name nextState.pause nextState.readZ nextState.readY nextState.readX nextState.init4 nextState.init3 nextState.init2 nextState.init1 nextState.init0 
+nextState.init0 0 0 0 0 0 0 0 0 0 
+nextState.init1 0 0 0 0 0 0 0 1 1 
+nextState.init2 0 0 0 0 0 0 1 0 1 
+nextState.init3 0 0 0 0 0 1 0 0 1 
+nextState.init4 0 0 0 0 1 0 0 0 1 
+nextState.readX 0 0 0 1 0 0 0 0 1 
+nextState.readY 0 0 1 0 0 0 0 0 1 
+nextState.readZ 0 1 0 0 0 0 0 0 1 
+nextState.pause 1 0 0 0 0 0 0 0 1 
+
+State Machine - |absMain|gSensorReader:gSensorReader_instance|state
+Name state.pause state.readZ state.readY state.readX state.init4 state.init3 state.init2 state.init1 state.init0 
+state.init0 0 0 0 0 0 0 0 0 0 
+state.init1 0 0 0 0 0 0 0 1 1 
+state.init2 0 0 0 0 0 0 1 0 1 
+state.init3 0 0 0 0 0 1 0 0 1 
+state.init4 0 0 0 0 1 0 0 0 1 
+state.readX 0 0 0 1 0 0 0 0 1 
+state.readY 0 0 1 0 0 0 0 0 1 
+state.readZ 0 1 0 0 0 0 0 0 1 
+state.pause 1 0 0 0 0 0 0 0 1 
